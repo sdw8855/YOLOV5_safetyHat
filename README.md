@@ -33,7 +33,7 @@ git clone https://github.com/daihuidai/YOLOV5_safetyHat.git
 
 > 在 data/detectImg 中放入待检测的图片
 
-1：可以在命令行通过 python 调用 detect.py 执行；2：可以直接在编译器中运行 detect.py。完成检测后会在根目录下生成 `runs/detect/exp` 目录，里面包含每次的训练结果图片。
+1：修改 detect.py 中 --weights的路径为上面第五步得到的模型路径，例如：runs/train/exp5/weights/best.pt。然后在命令行通过 python 调用 detect.py 执行；2：可以直接在编译器中运行 detect.py。完成检测后会在根目录下生成 `runs/detect/exp` 目录，里面包含每次的训练结果图片。
 
 
 
